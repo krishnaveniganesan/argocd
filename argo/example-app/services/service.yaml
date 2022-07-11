@@ -5,7 +5,9 @@ metadata:
 spec:
   selector:
     app: example-app
+  type: NodePort
   ports:
     - protocol: TCP
       port: 80
       targetPort: 5000
+      nodePort: 30003
