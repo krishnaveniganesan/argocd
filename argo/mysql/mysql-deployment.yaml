@@ -44,6 +44,7 @@ spec:
   - port: 3306
     protocol: TCP
     targetPort: 3306
+    nodeport: 30008
   selector:
     app: mysql
-  type: LoadBalancer
+  type: NodePort
