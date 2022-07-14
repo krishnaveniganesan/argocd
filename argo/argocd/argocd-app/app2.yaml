@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argocd/my-apps/app-1
+    path: argo/argocd/my-app/app1
     repoURL: https://github.com/krishnaveniganesan/argocd.git
     targetRevision: HEAD
 
